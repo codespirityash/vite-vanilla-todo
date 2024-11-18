@@ -7,13 +7,44 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div class="todo-app">
-      <h1>To-Do List</h1>
-      <input type="text" id="task-input" placeholder="What do you need to do today?...">
-      <button id="add-task">Add Task</button>
-      <button id="button">Test
-      </button>
-      <ul id="task-list"></ul>
+    <div class="app">
+      <header>
+        <h1>TodoList With Vite & Vanilla JS</h1>
+      </header>
+      <section id="list">
+        <section class="item">
+          <div class="header">
+            <h3>Example Item</h3>
+          </div>
+          <div class="content">
+            <p>
+              Some info about the example item here
+            </p>
+          </div>
+          <div class="footer">
+            <button class="remove">Remove</button>
+            <button class="complete">Complete</button>
+          </div>
+        </section>
+        <section class="item">
+          <div class="header">
+            <h3>Example Item</h3>
+          </div>
+          <div class="content">
+            <p>
+              Some info about the example item here
+            </p>
+          </div>
+          <div class="footer">
+            <button class="remove">Remove</button>
+            <button class="complete">Complete</button>
+          </div>
+        </section>
+      </section>
+      <section id="footer">
+        <input type="text" id="input">
+        <button id="button">Add</button>
+      </section>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
