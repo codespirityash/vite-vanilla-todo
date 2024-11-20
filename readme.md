@@ -20,9 +20,9 @@ npm run dev
 
 ### Tasks
 
-- [ ] Desing the UI on Figma 
-- [ ] Create a simple todolist structure using OOPS
-- [ ] Create DOM for the structure
+- [x] Desing the UI on Figma 
+- [x] Create a simple todolist structure using OOPS
+- [x] Create DOM for the structure
 - [ ] Use local storage to store todo data
 - [ ] Implement styles in SCSS instead of CSS
 
